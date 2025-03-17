@@ -94,11 +94,14 @@
     "ud": "^3.3.1",
     "ud-kefir": "^2.0.1"
   },
-  "description": "Library for browser extensions to interact with Gmail.",
+  "description": "A modified version of InboxSDK with custom changes",
   "license": "(MIT OR Apache-2.0)",
   "main": "src/inboxsdk-js/inboxsdk.js",
-  "name": "inboxsdk",
-  "private": true,
+  "name": "@vishnug-bridge/inboxsdk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishnug-bridge/InboxSDK.git"
+  },
   "scripts": {
     "typecheck": "tsc",
     "typedefs": "tsc -p tsconfig.declarations.json",
@@ -117,7 +120,7 @@
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
   },
-  "version": "0.7.25",
+  "version": "1.0.0",
   "workspaces": [
     "examples",
     "packages/*"

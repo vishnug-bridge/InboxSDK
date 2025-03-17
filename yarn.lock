@@ -1461,12 +1461,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.20.13, @babel/runtime@npm:^7.23.1, @babel/runtime@npm:^7.4.5, @babel/runtime@npm:^7.8.4":
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.20.13, @babel/runtime@npm:^7.4.5, @babel/runtime@npm:^7.8.4":
   version: 7.23.1
   resolution: "@babel/runtime@npm:7.23.1"
   dependencies:
     regenerator-runtime: "npm:^0.14.0"
   checksum: a9fdd322ae1f5d5e3446b6181745300f863164a30acb35ee296c6989cf0ecfd57598a7a6ef209b414575cabe81ef17756412052b3d85fcaf8729332b5b70c45f
+  languageName: node
+  linkType: hard
+
+"@babel/runtime@npm:^7.23.1":
+  version: 7.26.10
+  resolution: "@babel/runtime@npm:7.26.10"
+  dependencies:
+    regenerator-runtime: "npm:^0.14.0"
+  checksum: 9d7ff8e96abe3791047c1138789c742411e3ef19c4d7ca18ce916f83cec92c06ec5dc64401759f6dd1e377cf8a01bbd2c62e033eb7550f435cf6579768d0d4a5
   languageName: node
   linkType: hard
 
@@ -2511,7 +2520,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/kefir@npm:^3.8.6, @types/kefir@npm:^3.8.7":
+"@types/kefir@npm:^3.8.6":
+  version: 3.8.11
+  resolution: "@types/kefir@npm:3.8.11"
+  dependencies:
+    "@types/node": "npm:*"
+  checksum: e468a734d9afc833e2899f2643f5e1a492d8856df18ba28b9369b1e2ecc2c0a767ec314fcaa539874813fa6f14b3be3d9e50e0192849f999f9ae10a14883b023
+  languageName: node
+  linkType: hard
+
+"@types/kefir@npm:^3.8.7":
   version: 3.8.7
   resolution: "@types/kefir@npm:3.8.7"
   dependencies:
@@ -2849,6 +2867,112 @@ __metadata:
   checksum: 2f44c866120757233b04f28bea73ac705f8aef0f5c253c83daa13480e1649a6564aee2597768d56b7b4e88c7566d7e0c8aa0c0c4ef9a710f39d658d2e7837f71
   languageName: node
   linkType: hard
+
+"@vishnug-bridge/inboxsdk@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@vishnug-bridge/inboxsdk@workspace:."
+  dependencies:
+    "@babel/cli": "npm:^7.23.0"
+    "@babel/core": "npm:^7.23.0"
+    "@babel/node": "npm:^7.22.19"
+    "@babel/plugin-transform-runtime": "npm:^7.22.15"
+    "@babel/preset-env": "npm:^7.22.20"
+    "@babel/preset-react": "npm:^7.22.15"
+    "@babel/preset-typescript": "npm:^7.23.0"
+    "@babel/register": "npm:^7.22.15"
+    "@inboxsdk/examples": "workspace:*"
+    "@macil/simple-base-converter": "npm:^1.0.0"
+    "@types/asap": "npm:^2.0.0"
+    "@types/classnames": "npm:^2.2.8"
+    "@types/gulp": "npm:^4.0.6"
+    "@types/http-server": "npm:^0.10.1"
+    "@types/jest": "npm:^29"
+    "@types/kefir": "npm:^3.8.7"
+    "@types/lazypipe": "npm:^0.0.31"
+    "@types/lodash": "npm:^4.14.161"
+    "@types/node": "npm:^18.11.18"
+    "@types/react": "npm:^17.0.11"
+    "@types/react-dom": "npm:^17.0.7"
+    "@types/sinon": "npm:^10.0.2"
+    "@types/sinon-test": "npm:^2.4.0"
+    "@types/transducers.js": "npm:^0.3.0"
+    "@types/vinyl-source-stream": "npm:^0.0.30"
+    "@typescript-eslint/eslint-plugin": "npm:^5.59.8"
+    "@typescript-eslint/parser": "npm:^5.59.8"
+    asap: "npm:^2.0.3"
+    auto-html: "npm:^1.0.4"
+    babel-jest: "npm:^29"
+    babel-loader: "npm:^9.1.2"
+    babel-plugin-transform-inline-environment-variables: "npm:^0.4.3"
+    bignumber.js: "npm:^9.0.1"
+    bimapcache: "npm:^2.0.0"
+    buffer: "npm:^6.0.3"
+    classnames: "npm:^2.2.5"
+    combokeys-capture: "npm:^2.4.2"
+    concat-stream: "npm:^2.0.0"
+    contain-by-screen: "npm:^1.0.3"
+    css-loader: "npm:^6.7.3"
+    eslint: "npm:^8.41.0"
+    eslint-plugin-deprecate: "npm:^0.7.0"
+    eslint-plugin-react: "npm:^7.32.2"
+    ext-corb-workaround: "npm:^2.0.0"
+    fast-deep-equal: "npm:^3.1.3"
+    fast-glob: "npm:^3.2.5"
+    gulp: "npm:^4.0.2"
+    gulp-dest-atomic: "npm:^1.0.5"
+    http-server: "npm:^0.10.0"
+    husky: "npm:^7.0.4"
+    immutability-helper: "npm:^3.0.0"
+    jest: "npm:^29.5.0"
+    jest-css-modules: "npm:^2.1.0"
+    jest-environment-jsdom: "npm:^29.5.0"
+    kefir: "npm:^3.8.3"
+    kefir-bus: "npm:^2.2.0"
+    kefir-cast: "npm:^3.3.0"
+    kefir-stopper: "npm:^2.1.0"
+    lint-staged: "npm:^12.3.5"
+    live-set: "npm:^1.0.0"
+    lodash: "npm:^4.14.0"
+    map-indexed-xf: "npm:^1.0.0"
+    matches-selector-ng: "npm:^1.0.0"
+    mock-webstorage: "npm:^1.0.3"
+    notp: "npm:^2.0.3"
+    order-manager: "npm:^1.0.3"
+    page-parser-tree: "npm:^0.4.0"
+    pdelay: "npm:^2.0.0"
+    postcss: "npm:^8.4.21"
+    postcss-csso: "npm:^6.0.1"
+    postcss-loader: "npm:^7.2.4"
+    postcss-selector-parser: "npm:^2.2.0"
+    prettier: "npm:^3.0.3"
+    process: "npm:^0.11.10"
+    querystring-es3: "npm:^0.2.1"
+    react: "npm:^17.0.2"
+    react-dom: "npm:^17.0.2"
+    react-draggable-list: "npm:^4.0.2"
+    react-smooth-collapse: "npm:^2.0.1"
+    seed-random: "npm:^2.2.0"
+    sha.js: "npm:^2.4.8"
+    simple-encryptor: "npm:^4.0.0"
+    sinon: "npm:^11.1.1"
+    sinon-test: "npm:^3.1.0"
+    source-map-loader: "npm:^5.0.0"
+    stdio: "npm:^0.2.6"
+    style-loader: "npm:^3.3.2"
+    stylelint: "npm:^15.6.2"
+    stylelint-config-css-modules: "npm:^4.2.0"
+    stylelint-config-standard: "npm:^33.0.0"
+    synchd: "npm:^1.0.1"
+    tag-tree: "npm:^1.0.0"
+    thirty-two: "npm:^1.0.1"
+    transducers.js: "npm:^0.3.2"
+    typed-emitter: "npm:^2.1.0"
+    typescript: "npm:^5.3.3"
+    ud: "npm:^3.3.1"
+    ud-kefir: "npm:^2.0.1"
+    webpack: "npm:^5.76.3"
+  languageName: unknown
+  linkType: soft
 
 "@webassemblyjs/ast@npm:1.12.1, @webassemblyjs/ast@npm:^1.12.1":
   version: 1.12.1
@@ -4023,17 +4147,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001541":
-  version: 1.0.30001589
-  resolution: "caniuse-lite@npm:1.0.30001589"
-  checksum: 5e1d2eb7c32d48c52204227bc1377f0f4c758ef889c53b9b479e28470e7f82eb1db5853e7754be9600ee662ae32a1d58e8bef0fde6edab06322ddbabfd9d212f
-  languageName: node
-  linkType: hard
-
-"caniuse-lite@npm:^1.0.30001587":
-  version: 1.0.30001607
-  resolution: "caniuse-lite@npm:1.0.30001607"
-  checksum: caab9ae1aa343e72da935c071041344c80338d8a12bd12a90b7d46eb8a97c7620dac72e95c994b94ce82d63f2f27151dab49206864620d8bfd7aa99f7fc75c83
+"caniuse-lite@npm:^1.0.30001541, caniuse-lite@npm:^1.0.30001587":
+  version: 1.0.30001705
+  resolution: "caniuse-lite@npm:1.0.30001705"
+  checksum: 2bc019c29af827c099df8d4510a2ec23be9fbd9dc9ce988a97d9f6cf30d1eb71479d9d22663bd7ed2255124998ceaf85edf4382219175a22f68ff3b6471a41cc
   languageName: node
   linkType: hard
 
@@ -6921,112 +7038,6 @@ __metadata:
   checksum: 2d30b157a91fe1c1d7c6f653cbf263f039be6c5bfa959245a16d4ee191fc0f2af86c08545b6e6beeb041c56b574d2d5b9f95343d378ab49c0f37394d541e7fc8
   languageName: node
   linkType: hard
-
-"inboxsdk@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "inboxsdk@workspace:."
-  dependencies:
-    "@babel/cli": "npm:^7.23.0"
-    "@babel/core": "npm:^7.23.0"
-    "@babel/node": "npm:^7.22.19"
-    "@babel/plugin-transform-runtime": "npm:^7.22.15"
-    "@babel/preset-env": "npm:^7.22.20"
-    "@babel/preset-react": "npm:^7.22.15"
-    "@babel/preset-typescript": "npm:^7.23.0"
-    "@babel/register": "npm:^7.22.15"
-    "@inboxsdk/examples": "workspace:*"
-    "@macil/simple-base-converter": "npm:^1.0.0"
-    "@types/asap": "npm:^2.0.0"
-    "@types/classnames": "npm:^2.2.8"
-    "@types/gulp": "npm:^4.0.6"
-    "@types/http-server": "npm:^0.10.1"
-    "@types/jest": "npm:^29"
-    "@types/kefir": "npm:^3.8.7"
-    "@types/lazypipe": "npm:^0.0.31"
-    "@types/lodash": "npm:^4.14.161"
-    "@types/node": "npm:^18.11.18"
-    "@types/react": "npm:^17.0.11"
-    "@types/react-dom": "npm:^17.0.7"
-    "@types/sinon": "npm:^10.0.2"
-    "@types/sinon-test": "npm:^2.4.0"
-    "@types/transducers.js": "npm:^0.3.0"
-    "@types/vinyl-source-stream": "npm:^0.0.30"
-    "@typescript-eslint/eslint-plugin": "npm:^5.59.8"
-    "@typescript-eslint/parser": "npm:^5.59.8"
-    asap: "npm:^2.0.3"
-    auto-html: "npm:^1.0.4"
-    babel-jest: "npm:^29"
-    babel-loader: "npm:^9.1.2"
-    babel-plugin-transform-inline-environment-variables: "npm:^0.4.3"
-    bignumber.js: "npm:^9.0.1"
-    bimapcache: "npm:^2.0.0"
-    buffer: "npm:^6.0.3"
-    classnames: "npm:^2.2.5"
-    combokeys-capture: "npm:^2.4.2"
-    concat-stream: "npm:^2.0.0"
-    contain-by-screen: "npm:^1.0.3"
-    css-loader: "npm:^6.7.3"
-    eslint: "npm:^8.41.0"
-    eslint-plugin-deprecate: "npm:^0.7.0"
-    eslint-plugin-react: "npm:^7.32.2"
-    ext-corb-workaround: "npm:^2.0.0"
-    fast-deep-equal: "npm:^3.1.3"
-    fast-glob: "npm:^3.2.5"
-    gulp: "npm:^4.0.2"
-    gulp-dest-atomic: "npm:^1.0.5"
-    http-server: "npm:^0.10.0"
-    husky: "npm:^7.0.4"
-    immutability-helper: "npm:^3.0.0"
-    jest: "npm:^29.5.0"
-    jest-css-modules: "npm:^2.1.0"
-    jest-environment-jsdom: "npm:^29.5.0"
-    kefir: "npm:^3.8.3"
-    kefir-bus: "npm:^2.2.0"
-    kefir-cast: "npm:^3.3.0"
-    kefir-stopper: "npm:^2.1.0"
-    lint-staged: "npm:^12.3.5"
-    live-set: "npm:^1.0.0"
-    lodash: "npm:^4.14.0"
-    map-indexed-xf: "npm:^1.0.0"
-    matches-selector-ng: "npm:^1.0.0"
-    mock-webstorage: "npm:^1.0.3"
-    notp: "npm:^2.0.3"
-    order-manager: "npm:^1.0.3"
-    page-parser-tree: "npm:^0.4.0"
-    pdelay: "npm:^2.0.0"
-    postcss: "npm:^8.4.21"
-    postcss-csso: "npm:^6.0.1"
-    postcss-loader: "npm:^7.2.4"
-    postcss-selector-parser: "npm:^2.2.0"
-    prettier: "npm:^3.0.3"
-    process: "npm:^0.11.10"
-    querystring-es3: "npm:^0.2.1"
-    react: "npm:^17.0.2"
-    react-dom: "npm:^17.0.2"
-    react-draggable-list: "npm:^4.0.2"
-    react-smooth-collapse: "npm:^2.0.1"
-    seed-random: "npm:^2.2.0"
-    sha.js: "npm:^2.4.8"
-    simple-encryptor: "npm:^4.0.0"
-    sinon: "npm:^11.1.1"
-    sinon-test: "npm:^3.1.0"
-    source-map-loader: "npm:^5.0.0"
-    stdio: "npm:^0.2.6"
-    style-loader: "npm:^3.3.2"
-    stylelint: "npm:^15.6.2"
-    stylelint-config-css-modules: "npm:^4.2.0"
-    stylelint-config-standard: "npm:^33.0.0"
-    synchd: "npm:^1.0.1"
-    tag-tree: "npm:^1.0.0"
-    thirty-two: "npm:^1.0.1"
-    transducers.js: "npm:^0.3.2"
-    typed-emitter: "npm:^2.1.0"
-    typescript: "npm:^5.3.3"
-    ud: "npm:^3.3.1"
-    ud-kefir: "npm:^2.0.1"
-    webpack: "npm:^5.76.3"
-  languageName: unknown
-  linkType: soft
 
 "indent-string@npm:^4.0.0":
   version: 4.0.0
