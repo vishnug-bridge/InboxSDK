@@ -247,8 +247,9 @@ class Router {
 
     if (relevantCustomRoute) {
       const customRouteView = new CustomRouteView(routeViewDriver);
+      if(!customRouteView) return;
       const customViewElement = routeViewDriver.getCustomViewElement();
-      if (!customViewElement) throw new Error('should not happen');
+      if (!customViewElement) return;
       this.#driver.showCustomRouteView(customViewElement);
 
       try {
